@@ -10,6 +10,3 @@ _build/
 
 # macOS
 .DS_Store
-
-uv.lock
-.python-version
