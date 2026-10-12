@@ -1,0 +1,21 @@
+[project]
+name = "trueml-docs"
+version = "0.1.0"
+description = "Documentation for TrueML"
+readme = "README.md"
+authors = [
+    { name = "iamprasadraju", email = "gls.prasadraju@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "sphinx",
+    "sphinx-autobuild",
+    "sphinx_rtd_theme",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = false
